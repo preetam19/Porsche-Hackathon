@@ -1,0 +1,126 @@
+﻿@using BlazorCopilot1.Services
+@using BlazorCopilot1.Data
+
+@inject IJSRuntime JSRuntime
+@inject ChatService ChatService
+
+<div id="scrollbox">
+    @foreach (var item in _messages)
+    {
+        if (item.IsRequest) 
+        {
+            <div class="sent p-2 m-0 position-relative d-flex justify-content-end">
+                <p class="">@item.Body</p>
+            </div>
+        }
+        else 
+        {
+            <div class="received p-2 m-0 position-relative d-flex justify-content-start">
+                <p class="">@item.Body</p>
+            </div>
+        }
+    }
+</div>
+<hr />
+@* <input type="file" id="cvInput" accept=".pdf" style="display: none;" onchange="HandleFileUpload(this)" />
+<button class="btn btn-primary" @onclick="OpenFileUploadDialog">Upload your CV</button>
+ *@
+<InputFile OnChange="HandleFileUpload" accept=".pdf"/>
+
+
+
+
+<EditForm Model="chatinput" OnValidSubmit="SubmitChat">
+<textarea id="chattextarea" style="width: 500px; height: 80px;" @bind="@chatinput.Text" @oninput="@((ChangeEventArgs e) => updateTextArea(e))" />
+</EditForm>
+
+
+@code {
+
+    private ChatInput chatinput = new();
+    private List<Message> _messages = new();
+
+    private async Task ClearChat()
+    {
+        _messages = new List<Message>();
+    }
+
+    private async Task SubmitChat()
+    {
+        Message tosend = new Message(chatinput.Text, true);
+        _messages.Add(tosend);
+        await JSRuntime.InvokeAsync<string>("UpdateScroll", "scrollbox");
+
+        Message response = await ChatService.GetResponse(_messages);
+        _messages.Add(response);
+        await JSRuntime.InvokeAsync<string>("UpdateScroll", "scrollbox");
+
+        chatinput.Text = "";
+    }
+
+
+    private void updateTextArea(ChangeEventArgs e)
+    {
+        chatinput.Text = e.Value!.ToString()!;
+    }
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeAsync<string>("addSubmitOnEnter", "chattextarea");
+            Message welcomeMessage = new Message("Hello and welcome to the Porsche AG Job Portal! 👋 I'm your personal assistant here to help you find the perfect job match based on your uploaded CV." +
+            "Would you like to proceed with the following options?" +
+            "1. Analyze My CV: Let's take a closer look at your uploaded CV and compare it with our current job openings" +
+            "2. Browse Open Jobs: View a list of all current job openings at Porsche AG without CV analysis." +
+            "3. AI Consultation: Get personalized career advice and job recommendations from our advanced AI analysis. Ideal for those who are unsure about what roles to apply for!", false);
+            _messages.Add(welcomeMessage);
+
+            StateHasChanged();
+        }
+    }
+
+    private async Task HandleFileUpload(InputFileChangeEventArgs e)
+    {
+        var file = e.GetMultipleFiles().FirstOrDefault();
+        if (file != null)
+        {
+            using (var memoryStream = new MemoryStream())
+            {
+                await file.OpenReadStream().CopyToAsync(memoryStream);
+                var fileData = memoryStream.ToArray();
+
+                // Send the file to the Flask back-end
+                using (var httpClient = new HttpClient())
+                {
+                    var content = new MultipartFormDataContent();
+                    content.Add(new ByteArrayContent(fileData), "file", file.Name);
+
+                    var response = await httpClient.PostAsync("http://your-flask-server-url/upload", content);
+
+                    if (response.IsSuccessStatusCode)
+                    {
+                        // File uploaded successfully
+                    }
+                    else
+                    {
+                        // Handle error
+                    }
+                }
+            }
+        }
+    }
+
+
+    public class ChatInput
+    {
+        public ChatInput()
+        {
+            Text = "";
+        }
+        public string Text { get; set; }
+    }
+
+}
+
+
