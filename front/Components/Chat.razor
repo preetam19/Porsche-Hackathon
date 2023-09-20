@@ -97,6 +97,7 @@
                     content.Add(new ByteArrayContent(fileData), "file", file.Name);
 
                     var response = await httpClient.PostAsync("http://your-flask-server-url/upload", content);
+                    #url: http://127.0.0.1:5000/upload
 
                     if (response.IsSuccessStatusCode)
                     {
