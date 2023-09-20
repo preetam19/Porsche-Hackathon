@@ -4,9 +4,13 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import FAISS
 import os 
 
-
 from dotenv import load_dotenv
 
+
+folders = ['data', 'results']
+
+for folder in folders:
+    os.makedirs(folder, exist_ok=True)
 load_dotenv()
 
 OPENAI_API_TYPE = os.environ.get('OPENAI_API_TYPE')
@@ -44,6 +48,16 @@ def format_text(path):
 
 entire_description = format_text('data/scraped_jobs_base.json')
 
-faiss = FAISS.from_texts(entire_description, embeddings)
-recommendation_list = faiss.similarity_search(resume[0].page_content, k=5)
-print(recommendation_list)
+
+def get_recommendation(job_files, resume, output_path):    
+    faiss = FAISS.from_texts(job_files, embeddings)
+    recommendation_list = faiss.similarity_search(resume[0].page_content, k=5)
+    recommendation_list = [file.page_content for file in recommendation_list]
+    recommendations = {
+        'resume': resume[0].page_content,
+        'recommendations': recommendation_list
+    }
+    with open(output_path, 'w') as f:
+        json.dump(recommendations, f)
+    
+get_recommendation(job_files=entire_description, resume=resume, output_path='results/results.json')
