@@ -15,7 +15,7 @@ OPENAI_API_KEY = os.environ.get('OPENAI_API_KEY')
 OPENAI_API_VERSION = os.environ.get('OPENAI_API_VERSION')
 
 embeddings = OpenAIEmbeddings(deployment="porsche_hackathon_ada2", chunk_size=1)
-loader = PyPDFLoader("Final_Lebenslauf_10076.pdf")
+loader = PyPDFLoader("data/Final_Lebenslauf_10076.pdf")
 resume = loader.load_and_split()
 
 def convert_into_text(path):
@@ -42,7 +42,7 @@ def format_text(path):
     return [format_description(i) for i in data]
 
 
-entire_description = format_text('scraped_jobs_base.json')
+entire_description = format_text('data/scraped_jobs_base.json')
 
 faiss = FAISS.from_texts(entire_description, embeddings)
 recommendation_list = faiss.similarity_search(resume[0].page_content, k=5)
