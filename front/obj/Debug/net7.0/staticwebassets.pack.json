@@ -1,79 +1,163 @@
 {
   "Files": [
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/obj/Debug/net7.0/scopedcss/projectbundle/BlazorCopilot1.bundle.scp.css",
-      "PackagePath": "staticwebassets/BlazorCopilot1.bundle.scp.css"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorCopilot1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\BlazorCopilot1.bundle.scp.css"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/JSHelpers.js",
-      "PackagePath": "staticwebassets/JSHelpers.js"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\JSHelpers.js",
+      "PackagePath": "staticwebassets\\JSHelpers.js"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/bootstrap/bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\Job-Offers.css",
+      "PackagePath": "staticwebassets\\css\\Job-Offers.css"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/bootstrap/bootstrap.min.css.map",
-      "PackagePath": "staticwebassets/css/bootstrap/bootstrap.min.css.map"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/FONT-LICENSE",
-      "PackagePath": "staticwebassets/css/open-iconic"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/ICON-LICENSE",
-      "PackagePath": "staticwebassets/css/open-iconic"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\nicepage.css",
+      "PackagePath": "staticwebassets\\css\\nicepage.css"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/README.md",
-      "PackagePath": "staticwebassets/css/open-iconic/README.md"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/font/css/open-iconic-bootstrap.min.css",
-      "PackagePath": "staticwebassets/css/open-iconic/font/css/open-iconic-bootstrap.min.css"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/font/fonts/open-iconic.eot",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.eot"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/font/fonts/open-iconic.otf",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.otf"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/font/fonts/open-iconic.svg",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.svg"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/font/fonts/open-iconic.ttf",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.ttf"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/open-iconic/font/fonts/open-iconic.woff",
-      "PackagePath": "staticwebassets/css/open-iconic/font/fonts/open-iconic.woff"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/css/site.css",
-      "PackagePath": "staticwebassets/css/site.css"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "/Users/infai/HRBOT/Porsche-Hackathon/front/wwwroot/favicon.png",
-      "PackagePath": "staticwebassets/favicon.png"
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.BlazorCopilot1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\0fd3416c.jpeg",
+      "PackagePath": "staticwebassets\\images\\0fd3416c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\2717532-f79ad97d.png",
+      "PackagePath": "staticwebassets\\images\\2717532-f79ad97d.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\2717532.png",
+      "PackagePath": "staticwebassets\\images\\2717532.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\3820147-e3f99bc8.png",
+      "PackagePath": "staticwebassets\\images\\3820147-e3f99bc8.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\3820147.png",
+      "PackagePath": "staticwebassets\\images\\3820147.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\68f64b9d.jpeg",
+      "PackagePath": "staticwebassets\\images\\68f64b9d.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\8297861-3610a63a.png",
+      "PackagePath": "staticwebassets\\images\\8297861-3610a63a.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\8297861.png",
+      "PackagePath": "staticwebassets\\images\\8297861.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\8ad73f3c.jpeg",
+      "PackagePath": "staticwebassets\\images\\8ad73f3c.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\942833-c3f1d4fb.png",
+      "PackagePath": "staticwebassets\\images\\942833-c3f1d4fb.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\942833.png",
+      "PackagePath": "staticwebassets\\images\\942833.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\Bildschirmfoto2023-09-20um12.00.27.png",
+      "PackagePath": "staticwebassets\\images\\Bildschirmfoto2023-09-20um12.00.27.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\ChatbotModified.png",
+      "PackagePath": "staticwebassets\\images\\ChatbotModified.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\images\\nadine_layout.png",
+      "PackagePath": "staticwebassets\\images\\nadine_layout.png"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\intlTelInput\\intlTelInput.css",
+      "PackagePath": "staticwebassets\\intlTelInput\\intlTelInput.css"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\intlTelInput\\intlTelInput.min.js",
+      "PackagePath": "staticwebassets\\intlTelInput\\intlTelInput.min.js"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\intlTelInput\\utils.js",
+      "PackagePath": "staticwebassets\\intlTelInput\\utils.js"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\jquery.js",
+      "PackagePath": "staticwebassets\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\wwwroot\\nicepage.js",
+      "PackagePath": "staticwebassets\\nicepage.js"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.BlazorCopilot1.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.BlazorCopilot1.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.BlazorCopilot1.props",
       "PackagePath": "build\\BlazorCopilot1.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.BlazorCopilot1.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.BlazorCopilot1.props",
       "PackagePath": "buildMultiTargeting\\BlazorCopilot1.props"
     },
     {
-      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.BlazorCopilot1.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.BlazorCopilot1.props",
       "PackagePath": "buildTransitive\\BlazorCopilot1.props"
     }
   ],

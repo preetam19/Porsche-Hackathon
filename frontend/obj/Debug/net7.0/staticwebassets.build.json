@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "NkCZDtPbPAuTdXIRX3Koh2jYwfRFbH1B1qyGiD7ZW+w=",
+  "Hash": "bn+kdw1ZhAxl3XL2MjYi8g9LDImu+V18gYsMQTzfYkU=",
   "Source": "BlazorCopilot1",
   "BasePath": "_content/BlazorCopilot1",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorCopilot1\\wwwroot",
       "Source": "BlazorCopilot1",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorCopilot1.styles.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorCopilot1.styles.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "BlazorCopilot1.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorCopilot1.styles.css"
+      "OriginalItemSpec": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\obj\\Debug\\net7.0\\scopedcss\\bundle\\BlazorCopilot1.styles.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorCopilot1.bundle.scp.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorCopilot1.bundle.scp.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "BlazorCopilot1.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorCopilot1.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\BlazorCopilot1.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\Job-Offers.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\Job-Offers.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/Job-Offers.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Job-Offers.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\nicepage.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\nicepage.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/nicepage.css",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\nicepage.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\css\\site.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\favicon.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\favicon.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "favicon.png",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\0fd3416c.jpeg",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\0fd3416c.jpeg",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/0fd3416c.jpeg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\images\\0fd3416c.jpeg"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\2717532.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\2717532.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/2717532.png",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2717532.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\2717532-f79ad97d.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\2717532-f79ad97d.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/2717532-f79ad97d.png",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\images\\2717532-f79ad97d.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\3820147.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\3820147.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/3820147.png",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3820147.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\3820147-e3f99bc8.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\3820147-e3f99bc8.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/3820147-e3f99bc8.png",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\images\\3820147-e3f99bc8.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\68f64b9d.jpeg",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\68f64b9d.jpeg",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/68f64b9d.jpeg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\images\\68f64b9d.jpeg"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\8297861.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\8297861.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/8297861.png",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8297861.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\8297861-3610a63a.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\8297861-3610a63a.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/8297861-3610a63a.png",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8297861-3610a63a.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\8ad73f3c.jpeg",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\8ad73f3c.jpeg",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/8ad73f3c.jpeg",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\images\\8ad73f3c.jpeg"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\942833.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\942833.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/942833.png",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\images\\942833.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\942833-c3f1d4fb.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\942833-c3f1d4fb.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/942833-c3f1d4fb.png",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\images\\942833-c3f1d4fb.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\Bildschirmfoto2023-09-20um12.00.27.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\Bildschirmfoto2023-09-20um12.00.27.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/Bildschirmfoto2023-09-20um12.00.27.png",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\images\\Bildschirmfoto2023-09-20um12.00.27.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\ChatbotModified.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\ChatbotModified.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/ChatbotModified.png",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\images\\ChatbotModified.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\images\\nadine_layout.png",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\images\\nadine_layout.png",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "images/nadine_layout.png",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\images\\nadine_layout.png"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\intlTelInput\\intlTelInput.css",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\intlTelInput\\intlTelInput.css",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "intlTelInput/intlTelInput.css",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\intlTelInput\\intlTelInput.css"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\intlTelInput\\intlTelInput.min.js",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\intlTelInput\\intlTelInput.min.js",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "intlTelInput/intlTelInput.min.js",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\intlTelInput\\intlTelInput.min.js"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\intlTelInput\\utils.js",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\intlTelInput\\utils.js",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "intlTelInput/utils.js",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\intlTelInput\\utils.js"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\jquery.js",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\jquery.js",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "jquery.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\JSHelpers.js",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\JSHelpers.js",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "JSHelpers.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\JSHelpers.js"
     },
     {
-      "Identity": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\nicepage.js",
+      "Identity": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\nicepage.js",
       "SourceId": "BlazorCopilot1",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\wwwroot\\",
       "BasePath": "_content/BlazorCopilot1",
       "RelativePath": "nicepage.js",
       "AssetKind": "All",

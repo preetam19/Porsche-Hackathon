@@ -1,18 +1,18 @@
 {
   "version": 2,
-  "dgSpecHash": "dyTeVERkJkecqiykF5OQQxkrkJ9P5gzh+NLTFZhzcNsPMAex58/uUXdP2BQ9vxDwK9XVF/O7FqtK5HVH3rEqDw==",
+  "dgSpecHash": "Tq7cBIsdY47d68ga6Y3JsLdjOeCkHhIoAaSDyrYlCBgs5R5gIiP2lKBZ76HYPCdIKKxoTASszrPvd5bYWCC+0w==",
   "success": true,
-  "projectFilePath": "/Users/infai/HRBOT/Porsche-Hackathon/front/BlazorCopilot1.csproj",
+  "projectFilePath": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\front\\BlazorCopilot1.csproj",
   "expectedPackageFiles": [
-    "/Users/infai/.nuget/packages/azure.ai.openai/1.0.0-beta.5/azure.ai.openai.1.0.0-beta.5.nupkg.sha512",
-    "/Users/infai/.nuget/packages/azure.core/1.30.0/azure.core.1.30.0.nupkg.sha512",
-    "/Users/infai/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
-    "/Users/infai/.nuget/packages/system.diagnostics.diagnosticsource/4.6.0/system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
-    "/Users/infai/.nuget/packages/system.memory.data/1.0.2/system.memory.data.1.0.2.nupkg.sha512",
-    "/Users/infai/.nuget/packages/system.numerics.vectors/4.5.0/system.numerics.vectors.4.5.0.nupkg.sha512",
-    "/Users/infai/.nuget/packages/system.text.encodings.web/4.7.2/system.text.encodings.web.4.7.2.nupkg.sha512",
-    "/Users/infai/.nuget/packages/system.text.json/4.7.2/system.text.json.4.7.2.nupkg.sha512",
-    "/Users/infai/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\cesso\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.5\\azure.ai.openai.1.0.0-beta.5.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\azure.core\\1.30.0\\azure.core.1.30.0.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\cesso\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

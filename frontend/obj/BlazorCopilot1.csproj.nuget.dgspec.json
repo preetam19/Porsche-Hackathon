@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\BlazorCopilot1.csproj": {}
+    "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\BlazorCopilot1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\BlazorCopilot1.csproj": {
+    "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\BlazorCopilot1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\BlazorCopilot1.csproj",
+        "projectUniqueName": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\BlazorCopilot1.csproj",
         "projectName": "BlazorCopilot1",
-        "projectPath": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\BlazorCopilot1.csproj",
+        "projectPath": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\BlazorCopilot1.csproj",
         "packagesPath": "C:\\Users\\cesso\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\obj\\",
+        "outputPath": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

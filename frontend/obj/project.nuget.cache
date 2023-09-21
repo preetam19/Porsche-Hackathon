@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0yFkjDd9tfYvIAn3/Y264DucbSdLsc7+xm7aAx48v22lL4RVt/W2wGoRJ4ubhXApklW1E42J6gTQHJQZk/7jNg==",
+  "dgSpecHash": "u48Iu6gWUUmBMJDIlmVV4TauNY2VNLGc7KA2YGgHmUOIIItzIjxkSQf06oB+khm7DjOfVLbZO5zGCB+qQu5tSw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\cesso\\Desktop\\Porsche Hackathon\\blazorcopilot1-main\\BlazorCopilot1.csproj",
+  "projectFilePath": "C:\\Users\\cesso\\source\\repos\\Porsche-Hackathon\\frontend\\BlazorCopilot1.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\cesso\\.nuget\\packages\\azure.ai.openai\\1.0.0-beta.5\\azure.ai.openai.1.0.0-beta.5.nupkg.sha512",
     "C:\\Users\\cesso\\.nuget\\packages\\azure.core\\1.30.0\\azure.core.1.30.0.nupkg.sha512",

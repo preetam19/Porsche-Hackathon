@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorCopilot1
 build_property.RootNamespace = BlazorCopilot1
-build_property.ProjectDir = /Users/infai/HRBOT/Porsche-Hackathon/front/
+build_property.ProjectDir = C:\Users\cesso\source\repos\Porsche-Hackathon\front\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = /Users/infai/HRBOT/Porsche-Hackathon/front
+build_property.MSBuildProjectDirectory = C:\Users\cesso\source\repos\Porsche-Hackathon\front
 build_property._RazorSourceGeneratorDebug = 
 
-[/Users/infai/HRBOT/Porsche-Hackathon/front/App.razor]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/front/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/infai/HRBOT/Porsche-Hackathon/front/Components/Chat.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9DaGF0LnJhem9y
+[C:/Users/cesso/source/repos/Porsche-Hackathon/front/Components/Chat.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGF0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/infai/HRBOT/Porsche-Hackathon/front/Pages/Index.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXgucmF6b3I=
+[C:/Users/cesso/source/repos/Porsche-Hackathon/front/Pages/Index.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/infai/HRBOT/Porsche-Hackathon/front/_Imports.razor]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/front/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/infai/HRBOT/Porsche-Hackathon/front/Shared/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL01haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-aum2u3riq8
+[C:/Users/cesso/source/repos/Porsche-Hackathon/front/Shared/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-o1hh0yxha2
 
-[/Users/infai/HRBOT/Porsche-Hackathon/front/Pages/Error.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
+[C:/Users/cesso/source/repos/Porsche-Hackathon/front/Pages/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/infai/HRBOT/Porsche-Hackathon/front/Pages/_Host.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvX0hvc3QuY3NodG1s
+[C:/Users/cesso/source/repos/Porsche-Hackathon/front/Pages/_Host.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

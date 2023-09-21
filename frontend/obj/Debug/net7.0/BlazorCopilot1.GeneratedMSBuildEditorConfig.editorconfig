@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BlazorCopilot1
 build_property.RootNamespace = BlazorCopilot1
-build_property.ProjectDir = C:\Users\cesso\Desktop\Porsche Hackathon\blazorcopilot1-main\
+build_property.ProjectDir = C:\Users\cesso\source\repos\Porsche-Hackathon\frontend\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\cesso\Desktop\Porsche Hackathon\blazorcopilot1-main
+build_property.MSBuildProjectDirectory = C:\Users\cesso\source\repos\Porsche-Hackathon\frontend
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/cesso/Desktop/Porsche Hackathon/blazorcopilot1-main/App.razor]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/frontend/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cesso/Desktop/Porsche Hackathon/blazorcopilot1-main/Components/Chat.razor]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/frontend/Components/Chat.razor]
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xDaGF0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cesso/Desktop/Porsche Hackathon/blazorcopilot1-main/Pages/Index.razor]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/frontend/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cesso/Desktop/Porsche Hackathon/blazorcopilot1-main/_Imports.razor]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/frontend/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cesso/Desktop/Porsche Hackathon/blazorcopilot1-main/Shared/MainLayout.razor]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/frontend/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = b-o1hh0yxha2
 
-[C:/Users/cesso/Desktop/Porsche Hackathon/blazorcopilot1-main/Pages/Error.cshtml]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/cesso/Desktop/Porsche Hackathon/blazorcopilot1-main/Pages/_Host.cshtml]
+[C:/Users/cesso/source/repos/Porsche-Hackathon/frontend/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

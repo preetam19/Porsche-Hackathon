@@ -8,36 +8,54 @@
 @inject ChatService ChatService
 
 
+<style>
+    .custom-file-input {
+        visibility: hidden;
+        position: absolute;
+    }
 
-<div id="scrollbox">
+    .custom-upload-button {
+        background-color: #E8332C;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+
+</style>
+
+
+<div id="scrollbox" class="chat-box">
     @foreach (var item in _messages)
     {
         if (item.IsRequest) 
         {
-            <div class="sent p-2 m-0 position-relative d-flex justify-content-end">
+            <div class="message sent p-2 m-0 position-relative d-flex justify-content-end">
                 <p class="">@item.Body</p>
             </div>
         }
         else 
         {
-            <div class="received p-2 m-0 position-relative d-flex justify-content-start">
+            <div class="message received p-2 m-0 position-relative d-flex justify-content-start">
                 <p class="">@item.Body</p>
             </div>
         }
     }
 </div>
 <hr />
-@* <input type="file" id="cvInput" accept=".pdf" style="display: none;" onchange="HandleFileUpload(this)" />
-<button class="btn btn-primary" @onclick="OpenFileUploadDialog">Upload your CV</button>
- *@
-<InputFile OnChange="HandleFileUpload" accept=".pdf"/>
 
-
-
-
-<EditForm Model="chatinput" OnValidSubmit="SubmitChat">
-<textarea id="chattextarea" style="width: 500px; height: 80px;" @bind="@chatinput.Text" @oninput="@((ChangeEventArgs e) => updateTextArea(e))" />
-</EditForm>
+<div class="user-input">
+    <EditForm Model="chatinput" OnValidSubmit="SubmitChat">
+        <div class="form-group">
+            <textarea id="chattextarea" class="form-control chat-textarea" @bind="@chatinput.Text" @oninput="@((ChangeEventArgs e) => updateTextArea(e))"></textarea>
+        </div>
+    </EditForm>
+    <div class="file-upload mb-1 mt-1">
+        <InputFile id="cvInput" OnChange="HandleFileUpload" accept=".pdf" class="custom-file-input" />
+        <label for="cvInput" class="custom-upload-button">Upload My CV</label>
+    </div>
+</div>
 
 
 @code {
