@@ -107,11 +107,12 @@ public class PythonController : ControllerBase
         if (firstRender)
         {
             await JSRuntime.InvokeAsync<string>("addSubmitOnEnter", "chattextarea");
-            Message welcomeMessage = new Message("Hello and welcome to the Porsche AG Job Portal! 👋 I'm your personal assistant here to help you find the perfect job match based on your uploaded CV." +
-            "Would you like to proceed with the following options?" +
-            "1. Analyze My CV: Let's take a closer look at your uploaded CV and compare it with our current job openings" +
-            "2. Browse Open Jobs: View a list of all current job openings at Porsche AG without CV analysis." +
-            "3. AI Consultation: Get personalized career advice and job recommendations from our advanced AI analysis. Ideal for those who are unsure about what roles to apply for!", false);
+            Message welcomeMessage = new Message("Hello and welcome to the Porsche AG Job Portal! 👋\n" +
+            "I'm your personal assistant here to help you find the perfect job match based on your uploaded CV. Would you like to proceed with the following options?\n" +
+            "\n1. Analyze My CV: Let's take a closer look at your uploaded CV and compare it with our current job openings\n" +
+            "2. Browse Open Jobs: View a list of all current job openings at Porsche AG without CV analysis.\n" +
+            "3. AI Consultation: Get personalized career advice and job recommendations from our advanced AI analysis. Ideal for those who are unsure about what roles to apply for!",
+            false);
             _messages.Add(welcomeMessage);
 
             StateHasChanged();
@@ -149,29 +150,12 @@ private async Task HandleFileUpload(InputFileChangeEventArgs e)
             {
                 using (StreamReader reader = process.StandardOutput)
                 {
-<<<<<<< HEAD
-                    var content = new MultipartFormDataContent();
-                    content.Add(new ByteArrayContent(fileData), "file", file.Name);
-
-                    var response = await httpClient.PostAsync("http://your-flask-server-url/upload", content);
-                    #url: http://127.0.0.1:5000/upload
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        // File uploaded successfully
-                    }
-                    else
-                    {
-                        // Handle error
-                    }
-=======
                     result = reader.ReadToEnd();
                 }
                 
                 using (StreamReader errorReader = process.StandardError)
                 {
                     errorOutput = errorReader.ReadToEnd();
->>>>>>> e7f74d2cd3bceb1d9036b0a84f485db9b9cde4b2
                 }
             }
 
