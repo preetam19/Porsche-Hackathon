@@ -1,8 +1,13 @@
 ﻿@using BlazorCopilot1.Services
 @using BlazorCopilot1.Data
-
+@using Microsoft.AspNetCore.Mvc;
+@using System;
+@using System.Diagnostics;
+@using System.IO;
 @inject IJSRuntime JSRuntime
 @inject ChatService ChatService
+
+
 
 <div id="scrollbox">
     @foreach (var item in _messages)
@@ -36,6 +41,39 @@
 
 
 @code {
+
+[ApiController]
+[Microsoft.AspNetCore.Mvc.Route("[controller]")]
+public class PythonController : ControllerBase
+{
+    [HttpPost("executeScript")]
+    public IActionResult ExecuteScript()
+    {
+        try
+        {
+            ProcessStartInfo start = new ProcessStartInfo();
+            start.FileName = "python3"; // or python3 depending on your setup
+            start.Arguments = "/app/python_scripts/recommendation.py";
+            start.UseShellExecute = false;
+            start.RedirectStandardOutput = true;
+
+            using (Process process = Process.Start(start))
+            {
+                using (StreamReader reader = process.StandardOutput)
+                {
+                    string result = reader.ReadToEnd();
+                    Console.Write(result);
+                }
+            }
+
+            return Ok("Script executed successfully.");
+        }
+        catch(Exception ex)
+        {
+            return StatusCode(500, $"Internal server error: {ex.Message}");
+        }
+    }
+}
 
     private ChatInput chatinput = new();
     private List<Message> _messages = new();
@@ -80,37 +118,67 @@
         }
     }
 
-    private async Task HandleFileUpload(InputFileChangeEventArgs e)
+private async Task HandleFileUpload(InputFileChangeEventArgs e)
+{
+    var file = e.GetMultipleFiles().FirstOrDefault();
+    if (file != null)
     {
-        var file = e.GetMultipleFiles().FirstOrDefault();
-        if (file != null)
+        using (var memoryStream = new MemoryStream())
         {
-            using (var memoryStream = new MemoryStream())
+            await file.OpenReadStream().CopyToAsync(memoryStream);
+            var fileData = memoryStream.ToArray();
+
+            // Save the file locally in the Docker container
+            var filePath = Path.Combine("/data/uploaded_files/", file.Name); 
+            await File.WriteAllBytesAsync(filePath, fileData);
+            Console.WriteLine($"File {file.Name} received and saved at {filePath}.");
+
+            // Now, trigger the Python script
+            ProcessStartInfo start = new ProcessStartInfo();
+            start.FileName = "python3"; // or python3 depending on your setup
+            start.Arguments = $"/app/python_scripts/recommendation.py {filePath}";
+            start.UseShellExecute = false;
+            start.RedirectStandardOutput = true;
+            start.RedirectStandardError = true; // Capture error outputs
+
+            Console.WriteLine($"Attempting to trigger Python script with {filePath} as argument.");
+
+            string result = "";
+            string errorOutput = "";
+            using (Process process = Process.Start(start))
             {
-                await file.OpenReadStream().CopyToAsync(memoryStream);
-                var fileData = memoryStream.ToArray();
-
-                // Send the file to the Flask back-end
-                using (var httpClient = new HttpClient())
+                using (StreamReader reader = process.StandardOutput)
                 {
-                    var content = new MultipartFormDataContent();
-                    content.Add(new ByteArrayContent(fileData), "file", file.Name);
-
-                    var response = await httpClient.PostAsync("http://your-flask-server-url/upload", content);
-
-                    if (response.IsSuccessStatusCode)
-                    {
-                        // File uploaded successfully
-                    }
-                    else
-                    {
-                        // Handle error
-                    }
+                    result = reader.ReadToEnd();
+                }
+                
+                using (StreamReader errorReader = process.StandardError)
+                {
+                    errorOutput = errorReader.ReadToEnd();
                 }
             }
+
+            if (!string.IsNullOrEmpty(errorOutput))
+            {
+                Console.WriteLine($"Error from Python script: {errorOutput}");
+            }
+            else
+            {
+                Console.WriteLine($"Python script output: {result}");
+            }
+
+            // Add a message to indicate the file was received and processed
+            Message fileProcessedMessage = new Message($"File {file.Name} processed. Analyzing results...", true);
+            _messages.Add(fileProcessedMessage);
+            await JSRuntime.InvokeAsync<string>("UpdateScroll", "scrollbox");
+
+            // Trigger the bot response based on the result from the Python script (or any other data you have).
+Message botResponse = await ChatService.GetResponseAfterFileUpload(); 
+_messages.Add(botResponse);
+await JSRuntime.InvokeAsync<string>("UpdateScroll", "scrollbox");
         }
     }
-
+}
 
     public class ChatInput
     {
